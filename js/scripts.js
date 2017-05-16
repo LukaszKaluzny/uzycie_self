@@ -13,6 +13,7 @@ Button.prototype = {
       alert(self.text);
     });
   $('body').append(this.$element);
+  btn1.create();
   }
+
 }
-btn1.create();
